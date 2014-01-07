@@ -1,0 +1,56 @@
+         File: ZXTranslator.zip
+       Author: Edmund Vermeulen <edmundv@xs4all.nl>
+      Release: 2.0.1 (May. 11th, 1998)
+Compatibility: BeOS R3 for PowerPC and Intel
+     Location: contrib/add-ons/translators
+  Description: ZX Spectrum SCREEN$ translator add-on
+        Notes: Public domain. Source included.
+
+
+ZXTranslator is a translator add-on for reading Sinclair ZX Spectrum
+SCREEN$ pictures. I've included a few examples pictures for you to try.
+The code is based on my ZX Datatype for the Amiga.
+
+
+The identification process of ZXTranslator is a bit lame. It is purely
+based on the file length. ZXTranslator recognises the following file
+formats:
+
+ - Raw SCREEN$ image. Length is 6912 bytes.
+ - SCREEN$ file saved with the ZX Interface 1. Length is 6921 bytes.
+ - SCREEN$ file in the ZX82 (Amiga Speculator) format. Only uncompressed
+   (length is 6924 bytes) is supported.
+ - SCREEN$ file saved on the +D and ported to the Amiga using ReadPlusD.
+   Length is 7396 bytes.
+
+
+Installation
+
+First rename the correct version for your machine to 'ZXTranslator'.
+
+  The file ending in '_ppc' is the PowerPC (BeBox and Macintosh) version.
+  The file ending in '_x86' is the Intel x86 (Pentium PC) version.
+
+Then copy the file to the folder '/boot/home/config/add-ons/Translators'.
+
+
+History
+
+Release 2.0.1 (May. 11th, 1998)
+
+ - Ported to BeOS Release 3 for PowerPC.
+
+Release 2.0.0 (Mar. 12th, 1998)
+
+ - Ported to BeOS Release 3 for Intel.
+ - Renamed from 'ZXHandler' to 'ZXTranslator'.
+ - Cleaned up code.
+
+Release 1.0.0 (July 31st, 1997)
+
+ - First public release.
+
+
+ /\n
+/o \  http://www.xs4all.nl/~edmundv/
+|_n|
