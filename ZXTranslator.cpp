@@ -13,6 +13,7 @@
 #include <TranslatorFormats.h>
 #include <DataIO.h>
 #include <Screen.h>
+#include <SupportKit.h>
 
 
 // Defines
